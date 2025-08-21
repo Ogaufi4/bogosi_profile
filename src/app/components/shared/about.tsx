@@ -53,7 +53,7 @@ export function About() {
 
               <p>
                 Our passion lies in transforming your vision into compelling
-                visual narratives. Whether it's the intimate moments of a wedding,
+                visual narratives. Whether its the intimate moments of a wedding,
                 the energy of a corporate event, the artistry of a music video,
                 or the creativity of a short film, we approach every project with
                 dedication and artistic excellence.

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Card, CardContent } from "@/app/components/ui/card"
 import { Button } from "@/app/components/ui/button"
+import Image from "next/image"
 
 export function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("All Projects")
@@ -124,8 +125,8 @@ export function Portfolio() {
               className="bg-gray-900 border-gray-800 overflow-hidden hover:border-[#D4A574] transition-all duration-300 group"
             >
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image || "/placeholder.svg"}
+                <Image
+                  src={project.image || "/cinematic-wedding-emotional-moment.png"}
                   alt={project.title}
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                 />

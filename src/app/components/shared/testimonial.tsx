@@ -97,7 +97,7 @@ export function Testimonials() {
 
               {/* Testimonial Text */}
               <blockquote className="text-lg md:text-xl text-gray-300 italic leading-relaxed mb-8">
-                "{testimonials[currentTestimonial].text}"
+                {testimonials[currentTestimonial].text}
               </blockquote>
 
               {/* Navigation */}
