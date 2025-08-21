@@ -51,7 +51,30 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-20 bg-gray-900">
+    <section
+      id="testimonials"
+      className="py-20 relative overflow-hidden"
+      style={{
+        background: "linear-gradient(135deg, #1a1a1a, #000000)",
+      }}
+    >
+      <div
+        className="absolute top-0 right-0 w-64 h-64 rounded-full"
+        style={{
+          background: "rgba(212, 165, 116, 0.3)",
+          filter: "blur(100px)",
+          opacity: 0.6,
+        }}
+      ></div>
+      <div
+        className="absolute bottom-0 left-0 w-64 h-64 rounded-full"
+        style={{
+          background: "rgba(212, 165, 116, 0.3)",
+          filter: "blur(100px)",
+          opacity: 0.6,
+        }}
+      ></div>
+
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">

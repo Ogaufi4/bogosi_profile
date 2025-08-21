@@ -128,7 +128,10 @@ export function Portfolio() {
                 <Image
                   src={project.image || "/cinematic-wedding-emotional-moment.png"}
                   alt={project.title}
+                  width={400}
+                  height={256}
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                  priority={true}
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-[#D4A574] text-black px-3 py-1 rounded-full text-sm font-semibold">
