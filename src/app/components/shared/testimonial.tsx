@@ -58,19 +58,20 @@ export function Testimonials() {
         background: "linear-gradient(135deg, #1a1a1a, #000000)",
       }}
     >
+      {/* Glassy Blur Effect */}
       <div
-        className="absolute top-0 right-0 w-64 h-64 rounded-full"
+        className="absolute top-2 right-2 w-32 h-32 rounded-full"
         style={{
-          background: "rgba(212, 165, 116, 0.3)",
-          filter: "blur(100px)",
+          background: "rgba(212, 165, 116, 0.3)", // Brownish color
+          filter: "blur(40px)",
           opacity: 0.6,
         }}
       ></div>
       <div
-        className="absolute bottom-0 left-0 w-64 h-64 rounded-full"
+        className="absolute bottom-2 left-2 w-32 h-32 rounded-full"
         style={{
-          background: "rgba(212, 165, 116, 0.3)",
-          filter: "blur(100px)",
+          background: "rgba(212, 165, 116, 0.3)", // Brownish color
+          filter: "blur(40px)",
           opacity: 0.6,
         }}
       ></div>

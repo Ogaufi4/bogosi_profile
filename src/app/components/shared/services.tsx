@@ -62,18 +62,18 @@ export function Services() {
     >
       {/* Glassy Blur Effect */}
       <div
-        className="absolute top-0 right-0 w-64 h-64 rounded-full"
+        className="absolute top-4 right-4 w-40 h-40 rounded-full"
         style={{
           background: "rgba(212, 165, 116, 0.3)", // Brownish color
-          filter: "blur(100px)",
+          filter: "blur(60px)",
           opacity: 0.6,
         }}
       ></div>
       <div
-        className="absolute bottom-0 left-0 w-64 h-64 rounded-full"
+        className="absolute bottom-4 left-4 w-40 h-40 rounded-full"
         style={{
           background: "rgba(212, 165, 116, 0.3)", // Brownish color
-          filter: "blur(100px)",
+          filter: "blur(60px)",
           opacity: 0.6,
         }}
       ></div>

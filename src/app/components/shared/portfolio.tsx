@@ -33,7 +33,7 @@ export function Portfolio() {
       description: "Dynamic nightclub photography showcasing energy and atmosphere",
       category: "Nightlife",
       serviceType: "PHOTOGRAPHY",
-      image: "/placeholder-4qwvw.png",
+      image: "/cinematic-music-video.png",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export function Portfolio() {
       description: "Complete branding package for emerging tech startup",
       category: "Design",
       serviceType: "DESIGN",
-      image: "/placeholder-sxiu0.png",
+      image: "/cinematic-music-video.png",
     },
     {
       id: 5,
@@ -83,11 +83,29 @@ export function Portfolio() {
   return (
     <section
       id="portfolio"
-      className="py-20"
+      className="py-20 relative overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, #1a1a1a, #000000, #D4A574)",
+        background: "linear-gradient(135deg, #1a1a1a, #000000)",
       }}
     >
+      {/* Glassy Blur Effect */}
+      <div
+        className="absolute top-2 right-2 w-32 h-32 rounded-full"
+        style={{
+          background: "rgba(212, 165, 116, 0.3)", // Brownish color
+          filter: "blur(40px)",
+          opacity: 0.6,
+        }}
+      ></div>
+      <div
+        className="absolute bottom-2 left-2 w-32 h-32 rounded-full"
+        style={{
+          background: "rgba(212, 165, 116, 0.3)", // Brownish color
+          filter: "blur(40px)",
+          opacity: 0.6,
+        }}
+      ></div>
+
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
