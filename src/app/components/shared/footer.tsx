@@ -1,6 +1,6 @@
 "use client"
 
-import { Instagram, Twitter, Facebook, Linkedin } from "lucide-react"
+import { Instagram, Twitter, Facebook, Linkedin, Music } from "lucide-react"
 
 export function Footer() {
   return (
@@ -17,11 +17,11 @@ export function Footer() {
             <div className="space-y-2">
               <div className="flex items-center space-x-2 text-gray-400">
                 <span>📧</span>
-                <span>hello@noblemotionstudios.com</span>
+                <span>info.noblemotionstudios@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-gray-400">
                 <span>📞</span>
-                <span>+(267) 7123-4567</span>
+                <span>+(267) 76621313</span>
               </div>
             </div>
           </div>
@@ -96,16 +96,16 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex space-x-4">
             <button className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-[#D4A574] hover:text-black transition-all duration-300">
-              <Instagram className="w-5 h-5" />
+              <Instagram className="w-5 h-5" />@noblemotionstudios
             </button>
             <button className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-[#D4A574] hover:text-black transition-all duration-300">
               <Twitter className="w-5 h-5" />
             </button>
             <button className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-[#D4A574] hover:text-black transition-all duration-300">
-              <Facebook className="w-5 h-5" />
+              <Facebook className="w-5 h-5" />noble motion studios
             </button>
             <button className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:bg-[#D4A574] hover:text-black transition-all duration-300">
-              <Linkedin className="w-5 h-5" />
+              <Music className="w-5 h-5" />
             </button>
           </div>
         </div>
