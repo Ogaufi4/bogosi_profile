@@ -104,6 +104,14 @@ ${colorConfig
 
 const ChartTooltip = RechartsPrimitive.Tooltip
 
+interface ChartTooltipProps {
+  active?: boolean
+  payload?: any // Replace `any` with the correct type for `payload`
+  className?: string
+  indicator?: string
+  hideLabel?: boolean
+}
+
 function ChartTooltipContent({
   active,
   payload,
